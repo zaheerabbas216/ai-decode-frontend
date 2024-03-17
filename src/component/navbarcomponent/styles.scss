@@ -1,0 +1,49 @@
+.navbar_{
+    height: 120px;
+    background-color: #fff !important;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 600;
+    border: none;
+    &:hover {
+        background-color: #dc3545 !important;
+        color: #fff !important;
+        border-radius: 20px;
+        border: none;
+    }
+}
+
+.logo_{
+    height: 100%;
+    width: 280px;
+    object-fit: cover;
+}
+
+.input_tags{
+    height: 40px;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.contactus_modal_title{
+    color: #dc3545;
+    font-weight: bold;
+}
+.message_text_area{
+    height: 100px;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.btn_message_submit{
+    background-color: #dc3545;
+    color: #f3f3f3;
+
+    &:hover{
+        color: #f3f3f3;
+    }
+}

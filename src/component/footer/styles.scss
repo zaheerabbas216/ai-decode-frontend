@@ -1,0 +1,31 @@
+.footerdiv_{
+    height: 400px;
+    background-color: #dc3545;
+}
+
+.footerlogo{
+    height: 100%;
+    width: 350px;
+}
+
+.ul_links{
+    list-style-type: none;
+}
+
+.li_link{
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0px;
+
+    a{
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.iconsize{
+    font-size: 40px;
+    color: #fff;
+}

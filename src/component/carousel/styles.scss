@@ -1,0 +1,49 @@
+.carouseldiv{
+    width: 100%;
+    height: 90vh;
+
+    .carouselimage_{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+.carousel_btn_left,
+.carousel_btn_right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel_btn_left {
+  left: 0;
+  font-size: 3rem;
+    background: none;
+    border: none;
+    color: lightgray;
+
+    &:hover{
+        background-color: transparent;
+        color:  #f40107;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.carousel_btn_right {
+  right: 0;
+  font-size: 3rem;
+    background: none;
+    border: none;
+    color: lightgray;
+
+    &:hover{
+        background-color: transparent;
+        color:  #f40107;
+    }
+    &:focus{
+        outline: none;
+    }
+}

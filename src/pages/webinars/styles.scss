@@ -1,0 +1,33 @@
+.nav-link-tab{
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none;
+    width: 130px;
+}
+.card_image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.overflow-elipse{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.heading-multiline{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    transition: -webkit-line-clamp 0.5s; 
+}
+
+.webinar_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+

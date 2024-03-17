@@ -1,0 +1,28 @@
+.card_{
+    height: 600px;
+    text-align: center;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    .card_service_image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease; /* Add transition for smooth animation */
+      }
+      
+      .card_service_image:hover {
+        transform: scale(1.1); /* Scale the image to 1.1 times its original size on hover */
+      }
+}
+
+.services_heading_{
+    font-size: 4.5rem;
+    color: #dc3545;
+}
+.explorebtn_{
+    height: 50px;
+}
+.card_heading{
+    font-size: 26px;
+}

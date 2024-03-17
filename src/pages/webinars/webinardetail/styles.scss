@@ -1,0 +1,26 @@
+.detail_banner_image{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.webinar_meeting_link{
+    cursor: pointer;
+}
+
+.detailed_webinar_title{
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.host_desig{
+    color: grey;
+}
+
+.webinar_status_div{
+    display: inline-block;
+    min-width: auto;
+    max-width: auto;
+    background-color: grey;
+    color: #000;
+}
